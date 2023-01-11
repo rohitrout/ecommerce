@@ -1,0 +1,58 @@
+.card {
+    border-radius: 20px;
+    /* position: relative; */
+    height: 280px;
+    width: 400px;
+    background-color: #63b9ff;
+    /* padding: 20px 15px; */
+  }
+  
+  .card-top {
+    border-radius: 20px 20px 0 0;
+    background-color: khaki;
+    height: 80px;
+    top: 0;
+    display: flex;
+    bottom: 0;
+    justify-content: space-around;
+    padding: 20px 20px 0 10px;
+    /* position: absolute; */
+  }
+  
+  .card-img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 120px;
+    height: 120px;
+  }
+  .card-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 10px 0 15px;
+    font-size: 1em;
+  }
+  .card-button{
+    
+    border-radius: 5px;
+    display: flex;
+    gap: 9em;
+    padding-top: 15px; 
+  }
+  .buy-btn{
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+  }
+  .buy-btn:hover{
+    background-color: rgb(133, 210, 18);
+  }
+  
+  #strike{
+    text-decoration: line-through;
+    color: #122e45;
+  }

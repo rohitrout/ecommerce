@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+.home-img {
+  display: flex;
+  height: 800px;
+ 
+  /* border: solid; */
+}
+.home-head {
+  display: flex;
+  /* height: 500px; */
+  /* border: blue solid; */
+  flex-direction: column;
+  padding-top:20px ;
+  align-items: center;
+}
+.product-head {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  height: 50px;
+  /* border: solid; */
+}
+.product-details {
+  padding: 20px;
+  display: flex;
+  /* height: 150px; */
+  gap: 13px;
+  /* border: solid; */
+}
+
+
+
+
+

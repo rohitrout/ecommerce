@@ -1,0 +1,40 @@
+.home-container {
+    display: flex;
+  
+    background-color: lightgrey;
+    flex-direction: column;
+  }
+  .nav {
+    display: flex;
+    position: sticky;
+    height: 110px;
+    background-color: #9eccda;
+    justify-content: space-around;
+    align-items: center;
+    
+    /* border: red solid; */
+  }
+  .nav-logo {
+    display: flex;
+    /* height: 0.5rem; */
+    /* border: yellow solid; */
+  }
+  .nav-search {
+    display: flex;
+    /* border: green solid; */
+    width: 900px;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+    padding-left: 15px;
+  }
+  .nav-elements {
+    display: flex;
+    /* border: black solid; */
+    flex: 1;
+    gap: 1.5rem;
+    color: white;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+  }
